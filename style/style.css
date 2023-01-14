@@ -1,0 +1,119 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+   text-decoration: none;
+   box-sizing: border-box; 
+}
+header{
+    height: 150px;
+    background-color: #C4C4C4;
+    padding: 64px 38px;
+}
+header nav ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    font-size: 18px;
+    color: #000000;
+}
+
+
+/* ----  index styles  ----- */
+
+
+.slider{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+.slider img{
+    width: 100%;
+    margin-top: -250px;
+}
+.statiacontainer{
+    padding: 34px 36px;
+}
+
+article{
+    width: 33.33%;
+    background-color: #FF9900;
+    padding-bottom: 12px;
+    float: left;
+}
+.meore{
+    background-color: #FFC700;
+}
+.mesame{
+    background-color: #FFE600;
+}
+article .statiaimg{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+article .statiaimg img{
+    width: 100%;
+}
+article h2{
+    margin: 14px 12px;
+}
+article .statiatext{
+    margin-left: 12px;
+}
+article .link{
+    margin: 14px 12px 12px 12px;
+}
+article .link a{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/*------- innerarticle page styles ----- */
+
+.back{
+    padding: 14px 46px;
+}
+.back a{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.innerarticle{
+    padding: 14px 38px;
+}
+.innerarticle section{
+    background-color: #FF9900;
+    padding-top: 56px;
+}
+.innerarticle .art2{
+    background-color: #FFC700;
+}
+.innerarticle .art3{
+    background-color: #FFE600;
+}
+.sectionimg{
+    width: 33.33%;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+    margin-bottom: 36px;
+    margin-top: 70px;
+}
+.sectionimg img{
+    width: 100%;
+}
+
+section h2{
+    margin-left: 12px;
+}
+section p{
+    padding: 10px;
+}
+footer{
+    clear: both;
+    padding: 48px 38px;
+}
